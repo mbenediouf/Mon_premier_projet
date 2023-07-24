@@ -1,0 +1,233 @@
+/*body{
+    background-color: rgb(17, 110, 110);
+}*/
+.container{
+    width: 90%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: black;
+}
+.images img{
+    width: 20px;
+}
+.div0{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.div0 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid{
+    grid-row: span 3;
+    grid-column: span 2;
+}
+.new{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.new h2{
+    font-size: 20px;
+}
+.new ul{
+    display: flex;
+    list-style: none;
+}
+.new ul li{
+    margin-right: 30px;
+}
+.content{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.menu0{
+    width: 75%;
+    margin: auto;
+}
+.Mdiv1 img{
+    width: 230px;
+    height: 200px;
+    border: 0;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.Mdiv1{
+    border: 0;
+    border-radius: 10px;
+    background-color: hsl(0, 26%, 95%);
+    width: 230px;
+}
+.Mdiv1 button{
+    background-color: rgb(17, 109, 116);
+    border: 1px solid beige;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.Mdiv1 h2, .Mdiv1 p{
+    padding-left: 10px;
+}
+.ctn img{
+    width: 100%;
+    height: 500px ;
+    object-fit: cover;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.fin{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.foot{
+    display: flex;
+}
+.foot >img{
+    width: 150px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.foot .etoile img{
+    width: 10px;
+}
+.star{
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+}
+
+.liste ul{
+    display: flex;
+    justify-content: space-between;
+}
+.liste ul li{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    list-style: none;
+}
+.p0{
+    font-weight: bold;
+}
+.div4{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.div4 img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.menu4 form input{
+    border: none;
+    background-color: aqua;
+    outline: 0;
+    padding-top: 7px;
+}
+.menu4 form{
+    border: 0px;
+    height: 30px;
+    background-color:aqua;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.menu4 button{
+    border: none;
+    background-color: aqua;
+    padding-top: 8px;
+    cursor: pointer;
+}
+footer{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.menu1 div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.menu1 div a{
+    text-decoration: none;
+    color: black;
+}
+
+.reseau img{
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.card{
+    width: 75%;
+    margin: auto;
+}
+.card img{
+    width: 35px;
+    border-radius: 60px;
+    background-color: aliceblue;
+}
+.icon{
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.icon1{
+    display: flex;
+    margin-right: 30px;
+}
+.icon1 img{
+    width: 40px;
+    margin-right: 20px;
+}
+.part{
+   height: 30px ;
+   margin-top: 25px;
+   border-radius: 50px;
+}
+.terminer{
+    display: grid;
+    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: row;
+}
+.terminer img{
+    width: 15%;
+}
+span, .item{
+    border-bottom: 1px solid red;
+}
